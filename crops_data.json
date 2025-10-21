@@ -1,0 +1,224 @@
+{
+  "crops": {
+    "maize": {
+      "description": "Maize (corn) is Ghana's most important cereal crop, grown in all regions. It is a staple food used for banku, kenkey, and porridge. In Ghana, maize is typically planted during the major rainy season (April-June) and minor season (September-October).",
+      "growing_conditions": {
+        "soil": "Well-drained sandy loam soils with pH 5.5-7.0",
+        "rainfall": "750-1200mm annually, well-distributed",
+        "temperature": "21-30°C",
+        "regions": "All regions, with major production in Brong-Ahafo, Ashanti, and Eastern regions"
+      },
+      "common_varieties": [
+        "Obatanpa (most popular, high protein)",
+        "Aburohemaa",
+        "Mamaba",
+        "Dorke SR"
+      ],
+      "diseases": [
+        {
+          "name": "Maize Lethal Necrosis",
+          "symptoms": "Yellowing and drying of leaves from edges inward, stunted growth, premature plant death, poor grain filling",
+          "causes": "Virus complex transmitted by aphids and leafhoppers",
+          "prevention": [
+            "Use certified disease-free seeds like Obatanpa",
+            "Practice crop rotation with legumes",
+            "Control insect vectors with neem-based insecticides",
+            "Remove and destroy infected plants immediately"
+          ],
+          "treatment": "No cure once infected. Focus on prevention and use resistant varieties."
+        },
+        {
+          "name": "Northern Corn Leaf Blight",
+          "symptoms": "Long, elliptical gray-green lesions (2-15cm) on leaves that turn tan, may have dark borders, severe defoliation",
+          "causes": "Fungus Exserohilum turcicum, thrives in cool, humid conditions",
+          "prevention": [
+            "Plant resistant varieties",
+            "Ensure proper spacing (75cm between rows, 25cm between plants)",
+            "Apply fungicides like copper-based products at first sign",
+            "Remove crop debris after harvest"
+          ],
+          "treatment": "Apply recommended fungicides early in disease development"
+        }
+      ],
+      "pests": [
+        {
+          "name": "Stem Borers",
+          "symptoms": "Holes in stems, dead hearts, lodged plants",
+          "control": "Use neem extracts, plant early, use push-pull technology with desmodium"
+        }
+      ],
+      "fertilizer_recommendation": "Apply 4 bags of NPK 15-15-15 at planting and 2 bags of Urea 3 weeks after planting per acre",
+      "harvesting": "Harvest when kernels are hard and moisture content is about 20-25%, typically 100-120 days after planting"
+    },
+    "rice": {
+      "description": "Rice is a major food crop in Ghana, cultivated in lowland (valley bottoms) and upland systems. Ghana aims to achieve rice self-sufficiency through various government initiatives.",
+      "growing_conditions": {
+        "soil": "Clay loam soils for lowland, well-drained soils for upland",
+        "water": "Continuous water supply for lowland rice",
+        "temperature": "20-35°C",
+        "regions": "Northern, Volta, Ashanti, and Eastern regions"
+      },
+      "common_varieties": [
+        "Jasmine 85",
+        "AGRON",
+        "CISADANE",
+        "TOX"
+      ],
+      "diseases": [
+        {
+          "name": "Rice Blast",
+          "symptoms": "Diamond-shaped lesions with gray centers and dark brown borders on leaves, nodes, and panicles; neck rot causing whiteheads",
+          "causes": "Fungus Pyricularia oryzae, favored by high humidity and nitrogen excess",
+          "prevention": [
+            "Use resistant varieties like AGRON",
+            "Avoid excessive nitrogen fertilizer",
+            "Ensure proper water management - alternate wetting and drying",
+            "Treat seeds with fungicides"
+          ],
+          "treatment": "Apply fungicides like tricyclazole or carbendazim at first symptoms"
+        }
+      ],
+      "pests": [
+        {
+          "name": "Rice Stem Borers",
+          "symptoms": "Dead hearts, whiteheads",
+          "control": "Use light traps, remove stubble, apply appropriate insecticides"
+        }
+      ],
+      "fertilizer_recommendation": "Apply 2-3 bags of NPK 15-15-15 at planting and 2 bags of Urea at tillering stage per acre",
+      "harvesting": "Harvest when 80-85% of panicles turn yellow, about 120-150 days after planting"
+    },
+    "yam": {
+      "description": "Yam is a crucial tuber crop and cultural symbol in Ghana, particularly important in traditional ceremonies. Ghana is one of the world's largest yam producers.",
+      "growing_conditions": {
+        "soil": "Well-drained, deep, fertile sandy loam soils",
+        "rainfall": "1500-2000mm annually",
+        "temperature": "25-30°C",
+        "regions": "Northern, Volta, Brong-Ahafo, and Eastern regions"
+      },
+      "common_varieties": [
+        "Pona (most popular)",
+        "Lariboko",
+        "Dente",
+        "Asana"
+      ],
+      "diseases": [
+        {
+          "name": "Yam Anthracnose",
+          "symptoms": "Dark brown to black spots on leaves and stems, leading to defoliation, stem dieback, and tuber rot in storage",
+          "causes": "Fungus Colletotrichum gloeosporioides, spreads during rainy season",
+          "prevention": [
+            "Use disease-free planting materials (setts)",
+            "Practice 2-3 year crop rotation with cereals",
+            "Stake plants properly for good air circulation",
+            "Apply fungicides like mancozeb preventively"
+          ],
+          "treatment": "Spray recommended fungicides at 7-10 day intervals during rainy periods"
+        }
+      ],
+      "pests": [
+        {
+          "name": "Yam Beetles",
+          "symptoms": "Holes in tubers, reduced market value",
+          "control": "Use pheromone traps, practice crop rotation, apply appropriate insecticides to soil"
+        }
+      ],
+      "fertilizer_recommendation": "Apply 2-3 bags of NPK 15-15-15 at planting and organic manure per acre",
+      "harvesting": "Harvest 8-10 months after planting when vines begin to dry"
+    },
+    "cassava": {
+      "description": "Cassava is a drought-tolerant root crop crucial for food security in Ghana. It is used for gari, fufu, and industrial starch production.",
+      "growing_conditions": {
+        "soil": "Well-drained soils, tolerates poor soils",
+        "rainfall": "1000-1500mm annually",
+        "temperature": "25-29°C",
+        "regions": "All regions, major production in Brong-Ahafo, Ashanti, and Volta regions"
+      },
+      "common_varieties": [
+        "Afisiafi",
+        "Tekbankye",
+        "Abasafitaa",
+        "Agric"
+      ],
+      "diseases": [
+        {
+          "name": "Cassava Mosaic Disease",
+          "symptoms": "Yellow mosaic patterns on leaves, leaf distortion, stunted growth, reduced root yield",
+          "causes": "Virus transmitted by whiteflies",
+          "prevention": [
+            "Use resistant varieties like Afisiafi",
+            "Plant disease-free stems",
+            "Control whitefly populations with insecticides",
+            "Rogue infected plants early"
+          ],
+          "treatment": "No cure. Remove and destroy infected plants to prevent spread."
+        }
+      ],
+      "pests": [
+        {
+          "name": "Cassava Green Mite",
+          "symptoms": "Yellow spots on leaves, leaf drop",
+          "control": "Use resistant varieties, apply recommended miticides"
+        }
+      ],
+      "fertilizer_recommendation": "Apply 2-3 bags of NPK 15-15-15 or NPK 12-12-17 per acre at planting",
+      "harvesting": "Harvest 8-18 months after planting depending on variety and use"
+    },
+    "cocoa": {
+      "description": "Cocoa is Ghana's leading agricultural export, known worldwide for high quality. Ghana is the second largest cocoa producer globally.",
+      "growing_conditions": {
+        "soil": "Deep, well-drained loamy soils with pH 6.0-7.5",
+        "rainfall": "1500-2000mm annually, well-distributed",
+        "temperature": "18-32°C",
+        "regions": "Western, Ashanti, Eastern, Central, Volta, and Brong-Ahafo regions"
+      },
+      "common_varieties": [
+        "Amazon",
+        "Hybrid"
+      ],
+      "diseases": [
+        {
+          "name": "Black Pod Disease",
+          "symptoms": "Small brown spots on pods that rapidly enlarge and turn black, white fungal growth on surface, complete pod rot",
+          "causes": "Fungus Phytophthora palmivora, thrives in high humidity and rainfall",
+          "prevention": [
+            "Regular pruning to maintain open canopy for air circulation",
+            "Remove and destroy infected pods regularly",
+            "Apply recommended fungicides like copper-based products",
+            "Weed control to reduce humidity around trees"
+          ],
+          "treatment": "Spray fungicides at 3-4 week intervals during rainy season, remove all infected pods"
+        }
+      ],
+      "pests": [
+        {
+          "name": "Cocoa Mirids",
+          "symptoms": "Lesions on stems and pods, dieback, reduced yield",
+          "control": "Regular pruning, use recommended insecticides, maintain shade"
+        }
+      ],
+      "fertilizer_recommendation": "Apply cocoa-specific fertilizer (0-22-18 + 9CaO + 7S) at 375g per tree twice yearly",
+      "harvesting": "Main crop: October-January, Light crop: June-August"
+    }
+  },
+  "general_farming": {
+    "soil_management": [
+      "Test soil every 2-3 years to determine nutrient needs",
+      "Practice crop rotation to maintain soil fertility",
+      "Use organic manure to improve soil structure",
+      "Implement conservation tillage to reduce erosion"
+    ],
+    "climate_resilience": [
+      "Use drought-tolerant varieties during dry spells",
+      "Practice water harvesting techniques",
+      "Implement mulching to conserve soil moisture",
+      "Diversify crops to spread climate risks"
+    ],
+    "post_harvest": [
+      "Dry grains to 13% moisture content for storage",
+      "Use hermetic bags for grain storage",
+      "Store tubers in well-ventilated, cool conditions",
+      "Process perishables quickly to reduce losses"
+    ]
+  }
+}
